@@ -1,0 +1,2 @@
+1. Trong trường hợp này, kích thước kernel 5, 5 cho độ accuracy cao hơn về cuối, vậy nhưng độ khác biệt không đáng kể khi so với kích thước 3, 3.
+2. Tăng kích thước kernel sẽ dẫn đến thời gian huấn luyện dài hơn vì nó làm tăng áng kể số lượng phép tính và tham số.
