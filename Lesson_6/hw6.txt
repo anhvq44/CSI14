@@ -1,0 +1,2 @@
+Câu 1: Mô hình với layer Dropout tốt hơn so với mô hình cũ. Val accuracy của mô hình mới là khoảng 0.90 và duy trì ổn định từ epoch 3 - epoch 6, trong khi mô hình cũ chỉ đạt được tối đa 89.23 tại epoch 4 và bắt đầu giảm sau đấy.
+Câu 2: Dropout giúp làm giảm overfitting. Khi so sánh train accuracy và val accuracy của model cũ, chúng có một khoảng cách kha khá, cũng chính là dấu hiệu của overfitting. Val loss của mô hình với Dropout cũng đồng thời thấp hơn nếu so với mô hình cũ, cho thấy khả năng generalisation của model mới.
